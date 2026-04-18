@@ -1,0 +1,20 @@
+/* style attribute,ids,classes,elements */
+
+/* 0 1 0 0 */
+#title {
+    color: brown;
+}
+
+/* 0 0 1 0  */
+.title {
+    color: rgb(19, 50, 50);
+}
+/* 0 0 0 1 */
+h1 {
+    color: cadetblue;
+
+}
+body {
+    color: blue;
+}
+

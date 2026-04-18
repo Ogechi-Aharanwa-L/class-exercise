@@ -1,0 +1,19 @@
+* {
+    color: blue;
+}
+
+/* element selector */
+h1 {
+    color: rgb(36, 117, 117);
+}
+/* class selector */
+.title,#fourthtitle {
+    color: blueviolet;
+}
+/* id selector */
+#fourthtitle {
+    color: rgb(112, 64, 17);
+}
+[href] {
+    color: coral;
+}

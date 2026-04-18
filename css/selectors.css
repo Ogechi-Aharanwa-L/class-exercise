@@ -1,0 +1,19 @@
+/* adjacent sibling combinator */
+.h1 + .h2 {
+    color: brown;
+}
+
+/* general sibling combinator selector */
+.h1 ~ h4 {
+    color: purple;
+}
+/* child combinator selector */
+
+div > .h4 {
+    color: blueviolet;
+}
+
+/* decendant combinator selector */
+div .h4 {
+    color: gold;
+}

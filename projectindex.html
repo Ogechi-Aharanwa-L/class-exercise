@@ -25,55 +25,74 @@
     <!-- Navigation Bar -->
      <header>
         <nav class="navbar">
-            <div class="logo"><a href="#hero"></a>Susan Okoro</a></div>
+            <div class="logo">
+                <a href="#hero">Susan Okoro</a>
+            </div>
 
-            <span class="hamburger-icon"><i class="fa-solid fa-bars"></i></span>
+            <!-- Hamburger Checkbox (for mobile) -->
+            <input type="checkbox" id="nav-toggle"   class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="hamburger-icon"><i class="fa-solid fa-bars"></i></span>
+            </label>
 
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#skills">Skills</a> </li>
+                <li> <a href="#projects">Projects</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
             </ul>
         </nav>
      </header>
      <main>
+        <!-- Hero Section -->
+
         <section id="hero" class="page-section">
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>Hi, I'm Susan</h1>
-                    <p class="tagline">Aspiring 
-                    Full-Stack Developer
+                    <p class="tagline">
+                        an Aspiring Full-Stack Developer
                     </p>
-
                     <a href="#projects" 
                     class="button"> View 
                     My Work</a>
                 </div>
-            
                 <div class="hero-image">
-                <img src="Placeholder image.png" 
-                 alt="Professional photo">
+                    <img src="Placeholder image.png" 
+                 alt="Professional placeholder">
                 </div>
             </div>    
         </section>
 
-
-        <section id="about">
+        <section id="about" class="page-section">
             <h2 class="section-title">About Me</h2>
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I am a detail oriented professional with a background in financial services operations and experience in customer service management. This experience strengthened my ability to manage processes, solve problems under pressure, and deliver consistent service quality. I am naturally drawn to structured environments and continuous improvement, with a strong interest in finance, productivity, and understanding how systems work behind the scenes.
+                        I am a detail oriented professional with a background in financial services operations 
+                        and experience in customer service management. This experience strengthened my ability 
+                        to manage processes, solve problems under pressure, and deliver consistent service 
+                        quality. I am naturally drawn to structured environments and continuous improvement, 
+                        with a strong interest in finance, productivity, and understanding how systems work 
+                        behind the scenes..hero-content
 
                     </p>
                     <p>
-                        My interest in technology developed from wanting to better understand the digital systems that support modern financial services. This led me to begin learning web development, starting with HTML and CSS, where I focus on building a solid foundation in structure and design. I am motivated by the need to create practical, user focused solutions and to transition into a field where I can combine analytical thinking with technical skills.
+                        My interest in technology developed from wanting to better understand the digital
+                        systems that support modern financial services. This led me to begin learning web 
+                        development, starting with HTML and CSS, where I focus on building a solid foundation in 
+                        structure and design. I am motivated by the need to create practical, user focused 
+                        solutions and to transition into a field where I can combine analytical thinking with 
+                        technical skills.
                     </p>
 
                     <p>
-                       Outside of work and learning, I enjoy exploring digital tools, watching insightful content, and organizing ideas in a way that improves how I think and work. I am particularly interested in how people interact with technology and how small design decisions can shape user experience. This curiosity continues to drive my growth as I develop both my technical skills and problem solving approach. 
+                        Outside of work and learning, I enjoy exploring digital tools, watching insightful
+                        content, and organizing ideas in a way that improves how I think and work. I am p
+                        articularly interested in how people interact with technology and how small design 
+                        decisions can shape user experience. This curiosity continues to drive my growth as I 
+                        develop both my technical skills and problem solving approach. 
                     </p>
 
                 </div>
@@ -83,10 +102,121 @@
 
                 </div>
             </div>
-
         </section>
-        <section id="skills">Skills</section>
-        <section id="projects">Projects</section>
+
+        <section id="skills" class="page-section">
+            <h2 class="section-title">Techs. I've Learned</h2>
+            <div class="skills-grid">
+
+                
+                <div class="skill-card">
+
+                    <div class="skill-card-logo">
+                        <h3>HTML5</h3>
+                        <i class="fab fa-html5"></i>
+                        
+                    </div>
+                <p>
+                   Building with semantic elements made structuring web pages clearer and more meaningful. It also
+                   improves accessibility and how content is interpreted by browsers     
+                </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-logo">
+                        <h3>CSS</h3>
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                <p>
+                    Styling brought the visual side of web pages to life through colors, spacing, and layout control.
+                    It also introduced responsive design for different screen sizes.
+                </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-logo">
+                        <h3>Flexbox</h3>
+                        <i class="fas fa-arrows-alt"></i>
+                    </div>
+                <p>
+                    Working with Flexbox made alignment and spacing in one direction much easier to handle. It
+                    simplifies creating flexible and adaptive layouts.
+                </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-logo">
+                        <h3>Grid</h3>
+                        <i class="fas fa-th"></i>
+                    </div>
+                <p>
+                    Grid opened up a more structured way to design two dimensional layouts. It allows precise placement
+                    of elements across rows and columns.
+                </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-logo">
+                        <h3>Git</h3>
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                <p>
+                    Using Git made it easier to track changes and manage code versions over time. It also provides a
+                    reliable way to revert mistakes and maintain code stability.
+                    
+                </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-logo">
+                        <h3>GitHub</h3>
+                        <i class="fab fa-github"></i>
+                    </div>
+                <p>
+                    Working with GitHub made sharing and storing code online more efficient. It also supports
+                    collaboration through repositories and version tracking.
+                </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page-section">
+            <h2 class="section-title">My Projects</h3>
+                <!-- Project 1 (LifeCare Health Center) -->
+                <div class="projects-grid">
+                    <img src="images/lifecare-health-centre.jpg" alt="LifeCare Health Center">
+                    <h3>LifeCare Health Centre</h3>
+                    <p>
+                        A health care landing page with navigation and appointment booking section.
+                    </p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Flexbox</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Project→</a>
+
+                </div>
+
+                <!-- Project 2 (Bright Champions Schools) -->
+                 <div class="project-card">
+                    <img src="images/Bright Champion Schools.jpg" alt="Bright Champion Schools website screenshot">
+                    <h3>Bright Champion Schools</h3>
+                    <p>
+                        Multi-section school website with course cards and call-to-action buttons
+                    </p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Grid</span>
+                        <span>Flexbox</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Project→</a>
+
+                 </div>
+        </section>
+
+
         <section id="Contact">Contact</section>
      </main>
      <footer>Footer</footer>

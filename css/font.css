@@ -1,0 +1,23 @@
+body {
+    color: rgb(74, 44, 8);
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /* text-decoration-line: underline ;
+    text-decoration-color: rgba(43, 20, 65, 0.616);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px ; */
+    text-decoration:underline rgb(110, 110, 179) wavy ;
+    text-align: left;
+}
+p {
+    font-size:18px ;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 50ch;
+}

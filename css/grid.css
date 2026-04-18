@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+    gap: 1rem;
+    width: fit-content;
+    margin: 1rem;
+    padding: 0.5rem;
+
+    
+}
+.container div {
+   background-color: greenyellow;
+   color: red;
+   border: 5px solid blueviolet;
+   border-radius: 10px;
+   padding: 2rem;
+   display: grid;
+   place-items: center;
+   position: relative;
+   
+}
+
+.container div > h2 {
+    color: black;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.container div:hover {
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
+
+.container div > a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-self: flex-start;
+    background-color: cadetblue;
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1.5rem;
+
+}
+.container  div > p {
+    margin-bottom: 2rem;
+}
+
+.container div > a:hover {
+    background-color: green;
+    color: yellow;
+}
+
+@media (min-width: 768px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
