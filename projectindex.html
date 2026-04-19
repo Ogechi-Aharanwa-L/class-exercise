@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- cdn for fontawesom -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-      <link rel="stylesheet" href="/project.css/styles.css">
+      <link rel="stylesheet" href="project.css/styles.css">
 
     <title>My Personal Portfolio</title>
     
@@ -52,11 +52,10 @@
                 <div class="hero-text">
                     <h1>Hi, I'm Susan</h1>
                     <p class="tagline">
-                        an Aspiring Full-Stack Developer
+                        ...an Aspiring Full-Stack Developer
                     </p>
                     <a href="#projects" 
-                    class="button"> View 
-                    My Work</a>
+                    class="button"> View My Work</a>
                 </div>
                 <div class="hero-image">
                     <img src="/images/my potrait.png" 
@@ -70,35 +69,30 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I am a detail oriented professional with a background in financial services operations 
-                        and experience in customer service management. This experience strengthened my ability 
-                        to manage processes, solve problems under pressure, and deliver consistent service 
-                        quality. I am naturally drawn to structured environments and continuous improvement, 
-                        with a strong interest in finance, productivity, and understanding how systems work 
-                        behind the scenes..hero-content
+                        I am a detail-oriented professional with a background in financial services operations. 
+                        I thrive in structured environments, solving problems under pressure and delivering 
+                        consistent quality. My interests lie in finance, productivity, and understanding how 
+                        systems work behind the scenes
 
                     </p>
                     <p>
-                        My interest in technology developed from wanting to better understand the digital
-                        systems that support modern financial services. This led me to begin learning web 
-                        development, starting with HTML and CSS, where I focus on building a solid foundation in 
-                        structure and design. I am motivated by the need to create practical, user focused 
-                        solutions and to transition into a field where I can combine analytical thinking with 
-                        technical skills.
+                        My curiosity about the digital systems powering modern finance led me to web 
+                        development. I am building a strong foundation in HTML and CSS, with the goal of 
+                        creating practical, user-focused solutions and combining analytical thinking with 
+                        technical skill.
                     </p>
 
                     <p>
-                        Outside of work and learning, I enjoy exploring digital tools, watching insightful
-                        content, and organizing ideas in a way that improves how I think and work. I am p
-                        articularly interested in how people interact with technology and how small design 
-                        decisions can shape user experience. This curiosity continues to drive my growth as I 
-                        develop both my technical skills and problem solving approach. 
+                        Outside of work, I enjoy exploring digital tools, learning through insightful content, 
+                        and organizing ideas to improve how I think and work. I am fascinated by how small 
+                        design decisions shape user experience—a curiosity that continues to drive my growth 
+                        as a developer and problem solver.
                     </p>
 
                 </div>
 
                 <div class="about-image">
-                    <img src="a coding workstation.png" alt="a coding workstation">
+                    <img src="/a coding workstation.png" alt="a coding workstation">
 
                 </div>
             </div>
@@ -210,7 +204,7 @@
                     <div class="project-card">
 
                         <div class="project-image">
-                            <img src="/images/Bright-Champion-Schools.webp" alt="Bright Champion Schools website
+                            <img src="/images/bright-champion-schools2.webp" alt="Bright Champion Schools website
                             screenshot">
                         </div>
 
@@ -279,7 +273,57 @@
         </section>
 
 
-        <section id="Contact">Contact</section>
+
+        <section id="contact" class="page-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-message">Questions? Project ideas? I would love to hear from you.</p>
+            <div class="contact-grid">
+            <!-- Form Section -->
+                <div class="contact-form">
+                    <form>  
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter Your fullname" required>
+                        </div>
+
+                         <div class="form-group">
+                           <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="abc@xyz.com" required>
+                        </div> 
+                
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message" required>
+                            </textarea> 
+                        </div>
+
+                       <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+            <!--Contact Info Side  -->
+                
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Email: susan.okoro@example.com</p>
+
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="#" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#" target="_blank" aria-label="X">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
      </main>
      <footer>Footer</footer>
 </body>
