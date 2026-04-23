@@ -442,7 +442,6 @@ footer {
 
 .footer-links a {
     color: #d1d5db;
-    text-decoration: none;
     font-size: 0.95rem;
     font-family: "Montserrat Alternates", sans-serif;
     transition: color 0.2s ease;
@@ -479,14 +478,12 @@ footer {
     color: #9ca3af;
     font-size: 0.9rem;
     text-decoration: none;
-    border-bottom: 1px dotted #4b5563;
     padding-bottom: 0.25rem;
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .go-top a:hover {
     color: #ffffff;
-    border-bottom-color: #ffffff;
 }
 
 .go-top a i {
@@ -499,7 +496,7 @@ footer p {
     font-size: 0.85rem;
     color: #6b7280;
     margin: 0;
-    font-family: "Roboto Condensed", sans-serif;
+    
 }
 
 
